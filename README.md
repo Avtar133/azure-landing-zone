@@ -8,7 +8,7 @@ This project demonstrates an enterprise-grade Azure foundation following Microso
  - Management Groups: Tenant Root to Org to Platform, which splits into Connectivity, Identy, and Management, and Landing Zones, which splits into corp  and online, plus Sandbox and Decommissioned.
  - Platform subscriptions: Hub VNet, Azure Firewall, Bastion, Log Analytics, Defender for CLoud.
  - Landing Zone Subscription: Spoke VNets peered to the hub, workload resources.
- - Policy-driven guardrails: Allowed locations, required tags, Networkrestrictions, auto-enabled diagnostics and defender, assigned via policy initiatives at management group scope.
+ - Policy-driven guardrails: Allowed locations, required tags, Networkrestrictions, auto-enabled diagnostics and defender, assigned via policy initiatives at management group scope. 
 
 ## Tech Stack
    - Terraform.
